@@ -66,12 +66,12 @@ class _HomePageState extends State<HomePage> {
                           data[position].imageurl,
                           width: 120,
                         ),
-                        Text(
-                          'Rp ${currencyFormatter.format(data[position].prodsellingprice)}',
-                          style: TextStyle(
-                            decoration: TextDecoration.lineThrough,
-                          ),
-                        ),
+//                         Text(
+//                           'Rp ${currencyFormatter.format(data[position].prodsellingprice)}',
+//                           style: TextStyle(
+//                             decoration: TextDecoration.lineThrough,
+//                           ),
+//                         ),
                       ],
                     ),
                   ],
